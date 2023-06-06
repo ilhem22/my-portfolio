@@ -1,0 +1,128 @@
+
+/* navbar */
+
+.nav{
+  background-color: rgb(78, 9, 67);
+}
+.nav-brand{
+  color:rgb(255, 255, 255)
+  
+}
+.nav-item{
+  color:rgb(255, 255, 255)
+}
+.icon{
+  margin-right: 5px;
+  margin-left: 5px;
+}
+/* home */
+
+.home-section {
+    position: relative;
+    z-index: 0;
+    background-color:  	rgb(255, 255, 255);
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding-bottom: 30px !important;
+    padding-top: 30px !important;
+  }
+  .home-content {
+    padding: 9rem 0 2rem !important;
+    color: rgb(24, 22, 22);
+    text-align: left;
+  }
+  .home-header {
+    padding-top: 80px !important;
+  }
+  .heading {
+    font-size: 2.4em !important;
+    padding-left: 50px !important;
+  }
+
+
+.wave {
+    animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.1s; /* Change to speed up or slow down */
+    animation-iteration-count: infinite; /* Never stop waving :) */
+    transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+    0% {
+      transform: rotate(0deg);
+    }
+    10% {
+      transform: rotate(14deg);
+    } /* The following five values can be played with to make the waving more or less extreme */
+    20% {
+      transform: rotate(-8deg);
+    }
+    30% {
+      transform: rotate(14deg);
+    }
+    40% {
+      transform: rotate(-4deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+    60% {
+      transform: rotate(0deg);
+    } /* Reset for the last half to pause */
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  
+  .heading-name {
+    font-size: 2.5em !important;
+    padding-left: 45px !important;
+  }
+  
+  .bleu {
+    
+    color: rgb(255, 8, 111);
+  }
+  .fro{
+    color: 	rgb(78, 9, 67);
+    font-size: 2.5em !important;
+  }
+
+ .card-view{
+  background-color: rgb(2, 12, 27);
+  color:rgb(255, 255, 255);
+ }
+ .blanc{
+  color:rgb(255, 255, 255);
+ }
+ .button{
+  background-color: rgb(78, 9, 67);
+  color :white;
+  height: 50px;
+  width: 100px;
+  margin-right: 10px; 
+  font-size: medium;
+ }
+ .button-container{
+  display: flex;
+ }
+ .card {
+  box-shadow: 0 4px 5px 3px rgb(223, 9, 109) !important;
+  color: rgb(10, 10, 10) !important;
+  background-color:white !important;
+  opacity: 0.9 !important;
+  transition: all 0.5s ease 0s !important;
+  height: 100% !important;
+}
+
+.rose{
+  color :rgb(223, 9, 109);
+}
+.center{
+  color: 	rgb(223, 9, 109);
+  text-align: center;
+}
+.purple{
+  color:rgb(78, 9, 67);
+}
