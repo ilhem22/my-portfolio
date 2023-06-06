@@ -1,10 +1,10 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Type from "../components/Type";
 import { Image, Col, Container, Row } from "react-bootstrap";
 import "../index.css";
 import "../new.css";
-import Particle from "../components/Particle";
-import Type from "../components/Type";
+
 import Welcome2 from "./Welcome2";
 import Projects from "./Projects";
 import React from "react";
@@ -15,7 +15,7 @@ function WelcomeScreen() {
       <Header></Header>
 
       <Container fluid className="home-section" id="home" >
-        <Particle />
+        
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
